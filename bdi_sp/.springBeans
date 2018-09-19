@@ -8,6 +8,7 @@
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
 		<config>src/main/resources/food/food-ioc.xml</config>
+		<config>src/main/resources/game/game-ioc.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

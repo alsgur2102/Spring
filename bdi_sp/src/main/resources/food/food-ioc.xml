@@ -2,6 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-
+	
+	<bean id="bugger" class="com.bdi.sp.food.Bugger"/>	
+	<bean id="pizza" class="com.bdi.sp.food.Pizza"/>
+	
+	<bean id="kfc" class="com.bdi.sp.food.KFC">
+		<property name="food" ref="bugger"></property>
+	</bean>
 </beans>

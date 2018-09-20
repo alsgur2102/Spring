@@ -10,6 +10,7 @@
 		<config>src/main/resources/food/food-ioc.xml</config>
 		<config>src/main/resources/game/game-ioc.xml</config>
 		<config>src/main/resources/anno/anno-ioc.xml</config>
+		<config>src/main/resources/ch1/ch1-ioc.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
